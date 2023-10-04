@@ -13,3 +13,22 @@ h1{
         font-size: 56px;
     }
 }
+
+.card-img-top {
+    width: auto;
+    height: 450px;
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        width: auto;
+        height: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        width:auto;
+        height: 450px;
+    }
+}
